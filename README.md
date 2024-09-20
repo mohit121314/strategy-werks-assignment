@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Project Documentation: Virtual Scrolling in React with Dynamic Data Loading.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hosted Link for Assingnemnt :- https://mohit121314.github.io/strategy-werks-assignment/
 
-## Available Scripts
+Architectural Overview
+1. React with Hooks: The main architecture is built using React's functional components with hooks (useState, useEffect).
+2. React Virtualized: The react-window library (a lightweight version of react-virtualized) is used to implement virtual scrolling, which minimizes DOM nodes and reduces rendering times for large lists.
+3. SCSS for Styling: SCSS (Sass) is used for custom styling, enabling nesting, variables, and responsive design through media queries.
+4. State Management: React's internal state is used for handling loaded data and dynamically loading more items.
+5. Responsiveness: The layout is made responsive using fluid units, media queries, and flexible grid layouts.
+6. Accessibility: Keyboard navigation and proper focus handling are considered for screen reader compatibility.
+7. Error Handling: Edge cases such as slow networks or failed data fetches are handled by showing loading indicators and error messages.
 
-In the project directory, you can run:
+How to Run and Test the Solution:-
 
-### `npm start`
+1. npm installed on your machine.
+2. Installation
+Clone the repository:
+git clone https://github.com/your-repo/strategy-werks-assignment.git
+cd strategy-werks-assignment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install dependencies:
+Run the following command to install all necessary dependencies.
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To Start on the Local Server:
+npm Start
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To test the test.js file:-
+npm test strategywerks.test.js
