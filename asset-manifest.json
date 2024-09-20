@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/strategy-werks-assignment/static/css/main.f3ed63cd.css",
+    "main.js": "/strategy-werks-assignment/static/js/main.2ec3d6f2.js",
+    "index.html": "/strategy-werks-assignment/index.html",
+    "main.f3ed63cd.css.map": "/strategy-werks-assignment/static/css/main.f3ed63cd.css.map",
+    "main.2ec3d6f2.js.map": "/strategy-werks-assignment/static/js/main.2ec3d6f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3ed63cd.css",
+    "static/js/main.2ec3d6f2.js"
+  ]
+}
