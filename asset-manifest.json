@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/strategy-werks-assignment/static/css/main.f3ed63cd.css",
-    "main.js": "/strategy-werks-assignment/static/js/main.2ec3d6f2.js",
+    "main.css": "/strategy-werks-assignment/static/css/main.a91f4427.css",
+    "main.js": "/strategy-werks-assignment/static/js/main.ec386cec.js",
     "index.html": "/strategy-werks-assignment/index.html",
-    "main.f3ed63cd.css.map": "/strategy-werks-assignment/static/css/main.f3ed63cd.css.map",
-    "main.2ec3d6f2.js.map": "/strategy-werks-assignment/static/js/main.2ec3d6f2.js.map"
+    "main.a91f4427.css.map": "/strategy-werks-assignment/static/css/main.a91f4427.css.map",
+    "main.ec386cec.js.map": "/strategy-werks-assignment/static/js/main.ec386cec.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3ed63cd.css",
-    "static/js/main.2ec3d6f2.js"
+    "static/css/main.a91f4427.css",
+    "static/js/main.ec386cec.js"
   ]
 }
