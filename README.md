@@ -4,7 +4,7 @@ Hosted Link for Assingnemnt :- https://mohit121314.github.io/strategy-werks-assi
 
 Architectural Overview
 1. React with Hooks: The main architecture is built using React's functional components with hooks (useState, useEffect).
-2. React Virtualized: The react-window library (a lightweight version of react-virtualized) is used to implement virtual scrolling, which minimizes DOM nodes and reduces rendering times for large lists.
+2. React Virtualized: The react-window library is used to implement virtual scrolling, which minimizes DOM nodes and reduces rendering times for large lists.
 3. SCSS for Styling: SCSS (Sass) is used for custom styling, enabling nesting, variables, and responsive design through media queries.
 4. State Management: React's internal state is used for handling loaded data and dynamically loading more items.
 5. Responsiveness: The layout is made responsive using fluid units, media queries, and flexible grid layouts.
@@ -16,8 +16,8 @@ How to Run and Test the Solution:-
 1. npm installed on your machine.
 2. Installation
 Clone the repository:
-git clone https://github.com/your-repo/strategy-werks-assignment.git
-cd strategy-werks-assignment
+git clone https://github.com/mohit121314/strategy-werks-assignment
+and then on the terminal type cd strategy-werks-assignment
 
 Install dependencies:
 Run the following command to install all necessary dependencies.
