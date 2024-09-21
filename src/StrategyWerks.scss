@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 $primary-color: #007bff;
 $secondary-color: #f1f5ff;
 $border-color: #d1e2ff;
@@ -6,23 +12,26 @@ $text-color: #333;
 
 .virtual-list-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1200px; 
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  overflow: hidden; 
 
   @media (max-width: 768px) {
     padding: 10px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 5px;
   }
 }
 
 .list-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: $secondary-color;
   border: 1px solid $border-color;
   border-radius: 8px;
@@ -38,7 +47,6 @@ $text-color: #333;
     background-color: $hover-color;
     color: #fff;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
   }
 
   &:nth-child(even) {
@@ -48,16 +56,15 @@ $text-color: #333;
     }
   }
 
-  &:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lighten($hover-color, 20%);
-    background-color: $primary-color;
-    color: #fff;
-  }
-
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 10px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+    padding: 8px;
+    width: 100%;
   }
 }
 
@@ -67,11 +74,21 @@ $text-color: #333;
   font-size: 16px;
   color: $primary-color;
   animation: fadeIn 0.5s ease-in-out;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
+    font-size: 12px;
+  }
 }
 
 @keyframes fadeIn {
   0% {
-    opacity: 0;
+    opacity: 0; 
   }
   100% {
     opacity: 1;
