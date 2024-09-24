@@ -26,5 +26,3 @@ npm install
 To Start on the Local Server:
 npm Start
 
-To test the test.js file:-
-npm test strategywerks.test.js
