@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
-import store from "./store";
-import StrategyWerks from "./StrategyWerks";
+import StrategyWerks from "./components/StrategyWerks/StrategyWerks";
+import Header from "./components/Header/Header";
+import "./App.scss";
 
 ReactDOM.render(
-  <Provider store={store}>
+  <div className="app">
+    <Header />
     <StrategyWerks />
-  </Provider>,
+  </div>
+  ,
   document.getElementById("root")
 );

@@ -1,0 +1,14 @@
+$primary-color: #007bff;
+
+.header {
+  width: 100%;
+  padding: 20px;
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+}

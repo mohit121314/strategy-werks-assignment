@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+$primary-color: #007bff;
+$font-heading: 'Poppins', sans-serif;
+$font-body: 'Roboto', sans-serif;
+
+.virtual-list-container {
+  width: 100%;
+  max-width: 800px;
+  height: 80vh;
+  overflow-y: auto;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e3e4e6 100%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  font-family: $font-body;
+}
+
+.end-of-list {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 40px);
+  left: 20px;
+}
+
+.loading-indicator {
+  text-align: center;
+  font-size: 16px;
+  color: $primary-color;
+  animation: fadeIn 0.5s ease-in-out;
+  font-family: $font-body;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1;
+  }
+}
