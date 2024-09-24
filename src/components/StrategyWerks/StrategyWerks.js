@@ -5,7 +5,7 @@ import './StrategyWerks.scss';
 
 const ITEM_HEIGHT = 150; 
 const BUFFER = 5; 
-const BATCH_SIZE = 100; 
+const BATCH_SIZE = 25; 
 const TOTAL_ITEMS = 10000;
 
 const StrategyWerks = () => {
@@ -59,7 +59,6 @@ const StrategyWerks = () => {
         </div>
       </div>
       {isLoading && <div className="loading-indicator">Loading more items...</div>}
-      {!hasMore && <div className="end-of-list">You have reached the end of the list.</div>}
     </div>
   );
 };
